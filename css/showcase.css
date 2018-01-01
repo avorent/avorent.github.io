@@ -28,14 +28,17 @@ header #intro.introtext{
 
 #sc1{
 background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_LineArt.jpg');
+background-position: 50% 25%;
 height: 100vh;
 }
 #sc2{
 background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_Color.jpg');
+background-position: 50% 25%;
 height: 50vh;
 }
 #sc3{
 background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_done.jpg');
+background-position: 50% 25%;
 height: 100vh;
 }
 #sc-code{
