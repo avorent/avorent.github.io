@@ -41,6 +41,7 @@ background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/
 background-position: 50% 25%;
 height: 100vh;
 }
+
 #sc-code{
   background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/code.jpg');
   height: 100vh;
