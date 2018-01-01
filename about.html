@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Test demo of a website">
   <meta name="keywords" content="web design, test, demo">
   <meta name="author" content="Panhavuth Lau">
-
-  <title> Avorent | About</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/showcase.css">
+  <title> Avorent | Welcome</title>
+  <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <!-- This is where all the content of the webpage starts-->
@@ -18,48 +18,93 @@
 
 <!-- Header (Top of the webpage)-->
 
-  <header>
+  <header class="parallax">
     <div class="container">
-      <div id="branding">
-        <h1>//<span class="highlight">Avorent</span> │ ABOUT</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-      </nav>
+      <img src="img/art/angel/Mercy_Icon.png"/>
+      <h1>Avorent</h1>
     </div>
+    <nav id="stickynav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
   </header>
+<!-- Navigation sidebar-->
 
-<!-- This is the section of boxes-->
 
-  <section id="main">
+<!-- Section of the showcase -->
+
+  <section id="sc1" class="parallax showcase">
+    <div class="container">
+      <h1>WELCOME</h1>
+    </div>
+  </section>
+
+  <section id="sc2" class="parallax showcase">
+      <div class="container">
+        <h1>END</h1>
+        <p>
+
+        </p>
+      </div>
+  </section>
+  <!-- This is the section of boxes-->
+
+  <section id="boxes">
     <div class="container">
 
-      <article id="main-col">
-        <h1 class="page-title"> About Me</h1>
+      <div class="box">
+        <img src="./img/HTML5Logo.png" />
+        <h3>HTML5 Markup</h3>
         <p>
-          I am currently an IMGD (Interactive Media and Game Design) Tech student at WPI (Worcester Polytechnic Institute).
-          Over the standard four years in school, I will be taking mostly IMGD and CS (Computer Science) classes. For CS classes,
-          I have taken CS1101 Introduction to Program Design. Here, I have used the Racket, a starter programming language.
-          I have also learned OOP (Object-Oriented Programming) and some aspects of Java from CS2102 OO Design Concepts.
-        </p>
-      </article>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
 
-      <aside id="sidebar">
-        <div class="dark">
-        <h3>What I Do</h3>
+      <div class="box">
+        <img src="./img/HTML5Logo2.png" />
+        <h3>CSS3 Styling</h3>
         <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
 
-
-        </p>
-        </div>
-      </aside>
+      <div class="box">
+        <img src="./img/HTML5Logo3.png" />
+        <h3>Graphic Design</h3>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
 
     </div>
   </section>
+
+  <section id="sc3" class="parallax showcase">
+      <div class="container">
+        <h1>END</h1>
+        <p>
+
+        </p>
+      </div>
+    </section>
 
   <!-- This is the bottom of the page -->
 
@@ -69,4 +114,6 @@
   </footer>
 </body>
 
+
+<script src="js/main.js"></script>
 </html>

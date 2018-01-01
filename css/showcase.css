@@ -1,0 +1,44 @@
+header#intro{
+  color: white;
+  min-height: 85vh;
+  background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/showcase_1.jpg');
+}
+
+header #intro.introtext{
+  border-top: 1px solid;
+}
+
+/* Showcase */
+.showcase{
+  min-height: 400px;
+  text-align: center;
+  color: White;
+}
+
+.showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.showcase p{
+  font-size: 20px;
+}
+
+
+#sc1{
+background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_LineArt.jpg');
+height: 100vh;
+}
+#sc2{
+background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_Color.jpg');
+height: 50vh;
+}
+#sc3{
+background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_done.jpg');
+height: 100vh;
+}
+#sc-code{
+  background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/code.jpg');
+  height: 100vh;
+}
