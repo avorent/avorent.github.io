@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title> Avorent | Welcome</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Test demo of a website">
   <meta name="keywords" content="web design, test, demo">
   <meta name="author" content="Panhavuth Lau">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="css/showcase.css">
-  <title> Avorent | Welcome</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/showcase.css"/>
+  <link rel="icon" type="image/png" href="database/main/ico.png"/>
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
 </head>
 
 <!-- This is where all the content of the webpage starts-->
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Header (Top of the webpage)-->
-  <header id="intro" class="parallax">
-    <div class="container">
+  <header id="intro" class="jumbotron parallax">
+    <div class="container-fluid">
       <img src="img/art/angel/Mercy_Icon.png"/>
       <h1>Welcome</h1>
     </div>
 
     <div id="intro" class="introtext container">
-      <h1> Hello!</h1>
+      <h1> Welcome!</h1>
       <p>
         This is a test demo
       </p>
@@ -34,29 +39,41 @@
   </header>
 
 <!-- Navigation Bar (stickied) -->
-  <nav class="sticky">
-    <ul>
-      <li>
-        <a id="logo" href="index.html">Avorent</a>
-      </li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li class="current"><a href="index.html">Home</a></li>
-    </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a id="logo" class="navbar-brand" href="#intro">Avorent</a>
+    </div>
+    <div class="collapse navbar-collapse" id="collapsingNavbar">
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#intro">Welcome</a></li>
+          <li><a href="#sc-about">About</a></li>
+          <li><a href="#sc-code">Programming</a></li>
+          <li><a href="#sc-art">Art</a></li>
+      </ulc>
+    </div>
+  </div>
   </nav>
 
-  <section id="sc1" class="parallax showcase">
-      <div class="container">
+<!-- Sections-->
+
+  <section id="sc-about" class="parallax showcase">
+      <div class="container-fluid">
         <h1>Student</h1>
       </div>
     </section>
     <section id="sc-code" class="parallax showcase">
-      <div class="container">
+      <div class="container-fluid">
         <h1>Programming</h1>
       </div>
     </section>
-    <section id="sc3" class="parallax showcase">
-      <div class="container">
+    <section id="sc-art" class="parallax showcase">
+      <div class="container-fluid">
         <h1>Let's Go!</h1>
       </div>
     </section>
@@ -65,7 +82,7 @@
 
   <!-- This is the bottom of the page -->
 
-  <footer id="stickyfooter">
+  <footer>
     <p>Avorent, Copyright &copy; 2018</p>
   </footer>
 </body>

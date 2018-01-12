@@ -22,13 +22,9 @@ body{
   background-position: 50% 50%;
 }
 
-.sticky{
-  position: fixed;
-  top: 0;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.43);
+.jumbotron{
+  margin-bottom: 0px;
 }
-
-
 /* Header */
 
 header{
@@ -67,33 +63,9 @@ header img{
 }
 
 /* Navigation Bar*/
-nav{
-  height: auto;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  display: table;
-  margin: 0px;
-  background-color: transparent;
-}
-nav ul .current{
-  border-bottom: SpringGreen 3px solid;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-nav ul{
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  margin: 0px;
-  padding: 0px;
-}
-
-nav li{
-  display: inline-flex;
-  float: right;
-}
-
-nav li:first-child{
-  float: left;
+.navbar{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-width: 0;
 }
 
 nav a{
@@ -104,13 +76,9 @@ nav a{
   font-weight: bold;
 }
 
-nav li:hover:not(.current #logo){
-  background-color: rgba(0, 0, 0, 0.5);
-  border-bottom: white 3px solid;
-}
-
-nav a:hover{
-  color: SpringGreen;
+.navbar-nav a:hover, .navbar-nav .active a, .navbar-brand a:hover, .navbar-brand a:focus, .navbar-nav a:focus{
+  color: SpringGreen !important;
+  background-color: rgba( 0, 0, 0, 0) !important;
 }
 
 #stickynav{
@@ -120,63 +88,23 @@ nav a:hover{
 }
 
 #logo{
-  font-size: 35px;
-  max-width: 40px;
-  padding: 0;
-  padding-left: 50px;
-  margin: 0;
-  clip: 25px;
+  font-size: 36px;
+  max-width: 56px;
+  color: SpringGreen;
   overflow-x: hidden;
 }
 
-
-/* Boxes */
-
-#boxes{
-  margin-top: 20px;
+#logo:hover{
+  color: white;
 }
-
-#boxes .box{
-  float:left;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-
-#boxes .box img{
-  width: 90px;
-}
-
-/* Sidebar */
-
-aside#sidebar{
-  float:right;
-  width: 30%;
-  margin-top: 10px;
-}
-
-
-/* Main-col */
-
-article#main-col{
-  float: left;
-  width: 65%;
-}
-
 
 /* Footer */
 
 footer{
   padding: 5px;
   color: SpringGreen;
-  background-color: black;
+  background-color: rgba(0,0,0,1);
   text-align: center;
-}
-
-#stickyfooter{
-  width: 100%;
-  position: fixed;
-  bottom: 0;
 }
 
 /* Socicon fonts*/
@@ -205,10 +133,4 @@ footer{
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@intro
-
-header #intro{
-  background-image: url(../img/showcase_1.jpg);
 }

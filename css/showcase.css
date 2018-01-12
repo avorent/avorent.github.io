@@ -1,7 +1,6 @@
 header#intro{
   color: white;
-  min-height: 85vh;
-  background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/showcase_1.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/showcase.jpg');
 }
 
 header #intro.introtext{
@@ -25,24 +24,21 @@ header #intro.introtext{
   font-size: 20px;
 }
 
-
-#sc1{
-background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_LineArt.jpg');
-background-position: 50% 25%;
-height: 100vh;
-}
-#sc2{
-background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_Color.jpg');
-background-position: 50% 25%;
-height: 50vh;
-}
-#sc3{
-background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/art/angel/Mercy_done.jpg');
-background-position: 50% 25%;
-height: 100vh;
+#intro{
+min-height: 100vh;
 }
 
+#sc-about{
+background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/student.jpg');
+background-position: 50% 25%;
+min-height: 100vh;
+}
+#sc-art{
+background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/art/angel/Mercy_done.jpg');
+background-position: 50% 25%;
+min-height: 100vh;
+}
 #sc-code{
-  background-image: linear-gradient(black, rgba(0,0,0,0), black), url('../img/code.jpg');
-  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0), black), url('../img/code.jpg');
+min-height: 100vh;
 }
