@@ -7,6 +7,7 @@
   <meta name="description" content="Test demo of a website">
   <meta name="keywords" content="web design, test, demo">
   <meta name="author" content="Panhavuth Lau">
+  <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?u8vidh">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
@@ -21,22 +22,7 @@
 
 <!-- This is where all the content of the webpage starts-->
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<!-- Header (Top of the webpage)-->
-  <header id="intro" class="jumbotron parallax">
-    <div class="container-fluid">
-      <img src="img/art/angel/Mercy_Icon.png"/>
-      <h1>Welcome</h1>
-    </div>
-
-    <div id="intro" class="introtext container">
-      <h1> Welcome!</h1>
-      <p>
-        This is a test demo
-      </p>
-    </div>
-  </header>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" scroll="off">
 
 <!-- Navigation Bar (stickied) -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -52,31 +38,47 @@
     <div class="collapse navbar-collapse" id="collapsingNavbar">
       <ul class="nav navbar-nav navbar-right">
           <li><a href="#intro">Welcome</a></li>
-          <li><a href="#sc-about">About</a></li>
+          <li><a href="#sc-about">About Me</a></li>
           <li><a href="#sc-code">Programming</a></li>
-          <li><a href="#sc-art">Art</a></li>
+          <li><a href="#sc-art">Artworks</a></li>
       </ulc>
     </div>
   </div>
   </nav>
 
+<!-- Header (Top of the webpage)-->
+  <header id="intro" class="jumbotron parallax">
+    <div class="container-fluid">
+      <img src="img/art/angel/Mercy_Icon.png"/>
+    </div>
+
+    <div id="intro" class="introtext container showcase text-center">
+      <h1> Who am I?</h1>
+      <p>I am an artist. I am a programmer.</p>
+      <h2>I am Avorent</h2>
+    </div>
+  </header>
+
 <!-- Sections-->
 
-  <section id="sc-about" class="parallax showcase">
+  <section id="sc-about" class="parallax showcase text-center">
       <div class="container-fluid">
         <h1>Student</h1>
+        <p>My actual name is Panha. I'm a 20-year-old university student</p>
       </div>
-    </section>
-    <section id="sc-code" class="parallax showcase">
+  </section>
+
+  <section id="sc-code" class="parallax showcase text-right">
       <div class="container-fluid">
         <h1>Programming</h1>
       </div>
-    </section>
-    <section id="sc-art" class="parallax showcase">
+  </section>
+
+  <section id="sc-art" class="parallax showcase">
       <div class="container-fluid">
-        <h1>Let's Go!</h1>
+        <h1>Art</h1>
       </div>
-    </section>
+  </section>
 
 
 
