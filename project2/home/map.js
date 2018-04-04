@@ -1,8 +1,7 @@
-Plotly.d3.csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/bad-drivers/bad-drivers.csv', function(err, rows){
+Plotly.d3.csv('https://raw.githubusercontent.com/antoniopferreira/bad-drivers/master/bad-drivers.csv', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) { return row[key]; });
       }
-
  var data = [{
               type: 'choropleth',
               locationmode: 'USA-states',
@@ -23,7 +22,6 @@ Plotly.d3.csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/bad
               }
             }
           }];
-
 console.log(data.locations);
   var layout = {
           title: 'Number of drivers involved in fatal collisions per billion miles',
