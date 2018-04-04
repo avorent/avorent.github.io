@@ -23,7 +23,7 @@ var j = 25;
 var label_y = 250;
 
 function setup() {
-  createCanvas(1600, 600);
+  createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
   frameRate(144);
 
   words('% of Drivers in Fatal Crashes Who Were Speeding in the U.S.', 55, 55, 100);
