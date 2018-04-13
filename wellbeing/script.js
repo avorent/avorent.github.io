@@ -6,7 +6,6 @@ var height = 480;
 var faceMode = affdex.FaceDetectorMode.LARGE_FACES;
 //Construct a CameraDetector and specify the image width / height and face detector mode.
 var detector = new affdex.CameraDetector(divRoot, width, height, faceMode);
-detector.scale(-1,1);
 
 //Enable detection of all Expressions, Emotions and Emojis classifiers.
 detector.detectAllEmotions();
@@ -116,3 +115,8 @@ function drawFeaturePoints(img, featurePoints) {
 
   }
 }
+
+//Mirrors the user
+affdex_elements.video.style.cssText = "-moz-transform: scale(-1, 1); \
+-webkit-transform: scale(-1, 1); -o-transform: scale(-1, 1); \
+transform: scale(-1, 1); filter: FlipH;";
