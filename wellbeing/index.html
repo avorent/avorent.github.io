@@ -10,7 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Import Bootstrap Library-->
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -21,15 +21,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-
-<body>
 <!-- Body Section -->
+<body>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"  id="leftMenu">
+  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+</div>
 
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+</div>
+<div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge w3-left" onmouseover="openLeftMenu()">&#9776;</button>
+    <button class="w3-button w3-teal w3-xlarge w3-right" onmouseover="openRightMenu()">&#9776;</button>
+  </div>
+<canvas id="world"></canvas>
 </body>
 
-
-<footer>
 <!-- Footer Section -->
-<script src="script.js"></script>
+<footer>
+<script src="confetti.js"></script>
 </footer>
 </html>
