@@ -206,3 +206,8 @@ body > div{
 .sidebar-left, .sidebar-right {
   padding: 0;
 }
+
+#affdex_elements {
+  width: 984px;
+  height: 480px;
+}
