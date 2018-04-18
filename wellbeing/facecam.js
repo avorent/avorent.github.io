@@ -12,11 +12,10 @@ detector.detectAllEmotions();
 detector.detectAllExpressions();
 detector.detectAllEmojis();
 detector.detectAllAppearance();
-detector.start();
 
 //Add a callback to notify when the detector is initialized and ready for runing.
 detector.addEventListener("onInitializeSuccess", function() {
-  log('#logs', "The detector reports initialized");
+  // log('#logs', "The detector reports initialized");
   //Display canvas instead of video feed because we want to draw the feature points on it
   $("#face_video_canvas").css("display", "block");
   $("#face_video").css("display", "none");
@@ -29,15 +28,15 @@ function log(node_name, msg) {
 //function executes when Start button is pushed.
 function onStart() {
   if (detector && !detector.isRunning) {
-    $("#logs").html("");
+    // $("#logs").html("");
     detector.start();
   }
-  log('#logs', "Clicked the start button");
+  // log('#logs', "Clicked the start button");
 }
 
 //function executes when the Stop button is pushed.
 function onStop() {
-  log('#logs', "Clicked the stop button");
+  // log('#logs', "Clicked the stop button");
   if (detector && detector.isRunning) {
     detector.removeEventListener();
     detector.stop();
@@ -46,7 +45,7 @@ function onStop() {
 
 //function executes when the Reset button is pushed.
 function onReset() {
-  log('#logs', "Clicked the reset button");
+  // log('#logs', "Clicked the reset button");
   if (detector && detector.isRunning) {
     detector.reset();
 
@@ -56,20 +55,20 @@ function onReset() {
 
 //Add a callback to notify when camera access is allowed
 detector.addEventListener("onWebcamConnectSuccess", function() {
-  log('#logs', "Webcam access allowed");
+  // log('#logs', "Webcam access allowed");
   console.log("Webcam access allowed");
 });
 
 //Add a callback to notify when camera access is denied
 detector.addEventListener("onWebcamConnectFailure", function() {
-  log('#logs', "webcam denied");
+  // log('#logs', "webcam denied");
   console.log("Webcam access denied");
 });
 
 //Add a callback to notify when detector is stopped
 detector.addEventListener("onStopSuccess", function() {
-  log('#logs', "The detector reports stopped");
-  $("#results").html("");
+  // log('#logs', "The detector reports stopped");
+  // $("#results").html("");
 });
 
 //Add a callback to receive the results from processing an image.

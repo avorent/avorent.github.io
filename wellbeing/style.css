@@ -198,3 +198,11 @@ a.article, a.article:hover {
 body > div{
     background: rgba(0, 0, 0, 0);
 }
+
+#instructions, #playlist {
+  height: 100vh;
+}
+
+.sidebar-left, .sidebar-right {
+  padding: 0;
+}
