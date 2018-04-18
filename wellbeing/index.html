@@ -18,27 +18,38 @@
   <script src="https://download.affectiva.com/js/3.2/affdex.js"></script>
 
   <!-- Use Custom CSS and Javascript files-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <link rel="stylesheet" href="style.css">
+
+
+
+<!-- Sidebars -->
+<canvas id="world"></canvas>
+<div class="">
+    <button class="btn btn-success pull-left" onclick=>&#9776;</button>
+    <button class="btn btn-success pull-right">&#9776;</button>
+</div>
 </head>
 
 <!-- Body Section -->
 <body>
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"  id="leftMenu">
-  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-</div>
+<!-- Sidebars -->
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+<div class="row">
+<div class="container" id="affdex_elements" style="width:100vh;height:480px;"></div>
 </div>
-<div class="w3-teal">
-    <button class="w3-button w3-teal w3-xlarge w3-left" onmouseover="openLeftMenu()">&#9776;</button>
-    <button class="w3-button w3-teal w3-xlarge w3-right" onmouseover="openRightMenu()">&#9776;</button>
+  <div class="progress">
+    <div id="dynamic" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+      <span id="current-progress"></span>
+    </div>
   </div>
-<canvas id="world"></canvas>
+<div class="overlay"></div>
 </body>
 
 <!-- Footer Section -->
 <footer>
+<script src="script.js"></script>
 <script src="confetti.js"></script>
+<script src="facecam.js"></script>
 </footer>
 </html>

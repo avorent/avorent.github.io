@@ -1,9 +1,9 @@
 (function() {
   var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
 
-  NUM_CONFETTI = 25;
+  NUM_CONFETTI = 250;
 
-  COLORS = [[85, 71, 106], [174, 61, 99], [219, 56, 83], [244, 92, 68], [248, 182, 70]];
+  COLORS = [[58,64,90], [228,154,176], [249,222,201], [153,178,221], [104,80,68]];
 
   PI_2 = 2 * Math.PI;
 
@@ -53,14 +53,14 @@
     constructor() {
       this.style = COLORS[~~range(0, 5)];
       this.rgb = `rgba(${this.style[0]},${this.style[1]},${this.style[2]}`;
-      this.r = ~~range(2, 6);
+      this.r = ~~range(1, 10);
       this.r2 = 2 * this.r;
       this.replace();
     }
 
     replace() {
       this.opacity = 0;
-      this.dop = 0.03 * range(1, 4);
+      this.dop = 0.01 * range(1, 5);
       this.x = range(-this.r2, w - this.r2);
       this.y = range(-20, h - this.r2);
       this.xmax = w - this.r;
