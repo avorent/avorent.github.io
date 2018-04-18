@@ -12,6 +12,7 @@ detector.detectAllEmotions();
 detector.detectAllExpressions();
 detector.detectAllEmojis();
 detector.detectAllAppearance();
+detector.start();
 
 //Add a callback to notify when the detector is initialized and ready for runing.
 detector.addEventListener("onInitializeSuccess", function() {
