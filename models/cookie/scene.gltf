@@ -3,50 +3,50 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 162,
+      "count": 22649,
       "max": [
-        1.3495903015136719,
-        25.632740020751953,
-        -7.7430133819580078
+        2.6446399688720703,
+        2.7392849922180176,
+        0.58966797590255737
       ],
       "min": [
-        -0.37632238864898682,
-        25.362394332885742,
-        -9.48046875
+        0,
+        0,
+        0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 1944,
+      "byteOffset": 271788,
       "componentType": 5126,
-      "count": 162,
+      "count": 22649,
       "max": [
-        0.97954142093658447,
-        0.99999350309371948,
-        0.98086369037628174
+        0.99892395734786987,
+        0.99734187126159668,
+        0.99999153614044189
       ],
       "min": [
-        -0.98390966653823853,
-        -0.99999988079071045,
-        -0.98360830545425415
+        -0.99920463562011719,
+        -0.99993598461151123,
+        -0.99999904632568359
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 162,
+      "count": 22649,
       "max": [
-        0.99999523162841797,
-        0.98127269744873047,
-        0.8783840537071228,
+        0.99796265363693237,
+        0.99983727931976318,
+        0.99995863437652588,
         1
       ],
       "min": [
-        -0.63458263874053955,
-        -0.97767829895019531,
-        -0.87450426816940308,
+        -0.99978882074356079,
+        -0.99997109174728394,
+        -0.99998724460601807,
         -1
       ],
       "type": "VEC4"
@@ -54,23 +54,23 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 162,
+      "count": 22649,
       "max": [
-        0.97479534149169922,
-        0.97479522228240967
+        1,
+        1
       ],
       "min": [
-        0.025204837322235107,
-        0.025204777717590332
+        0,
+        0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 840,
+      "count": 93348,
       "max": [
-        161
+        22648
       ],
       "min": [
         0
@@ -80,42 +80,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "French Baguette (https://sketchfab.com/FrenchBaguette)",
-      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/434b04afb75d4525ae5eb272282d736d",
+      "author": "Leon Denise (https://sketchfab.com/LeonDenise)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/196aa60cdc034cdbbc2c9d6dd6517872",
       "title": "Cookie"
     },
-    "generator": "Sketchfab-3.20.7",
+    "generator": "Sketchfab-3.18.7",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3360,
+      "byteLength": 373392,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 1296,
-      "byteOffset": 3360,
+      "byteLength": 181192,
+      "byteOffset": 373392,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 3888,
-      "byteOffset": 4656,
+      "byteLength": 543576,
+      "byteOffset": 554584,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 2592,
-      "byteOffset": 8544,
+      "byteLength": 362384,
+      "byteOffset": 1098160,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,19 +123,30 @@
   ],
   "buffers": [
     {
-      "byteLength": 11136,
+      "byteLength": 1460544,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
   "images": [
     {
-      "uri": "textures/lambert12_baseColor.png"
+      "uri": "textures/Cookie_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "lambert12",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Cookie",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -154,7 +165,6 @@
   ],
   "meshes": [
     {
-      "name": "pCylinder15_lambert12_0",
       "primitives": [
         {
           "attributes": {
@@ -199,35 +209,29 @@
         0,
         0,
         0,
-        0,
         1,
         0,
         0,
-        -1,
         0,
         0,
+        1,
         0,
-        0,
-        0,
+        -1.2316819429397583,
+        -1.3526569604873657,
+        -0.14986999332904816,
         1
       ],
-      "name": "ca01ab4eaae64ac1b2ca88213d53f240.fbx"
+      "name": "Cookie.obj.cleaner.gles"
     },
     {
       "children": [
         4
       ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        5
-      ],
-      "name": "pCylinder15"
+      "name": ""
     },
     {
       "mesh": 0,
-      "name": "pCylinder15_lambert12_0"
+      "name": ""
     }
   ],
   "samplers": [
