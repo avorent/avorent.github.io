@@ -1,0 +1,352 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        4.9291467666625977,
+        3.9762871265411377,
+        7.5255622863769531
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999451637268066,
+        0.99999451637268066,
+        0.99983322620391846
+      ],
+      "min": [
+        -0.9999879002571106,
+        -0.99987894296646118,
+        -0.99998587369918823
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99993181228637695,
+        0.99999153614044189,
+        0.99999403953552246,
+        1
+      ],
+      "min": [
+        -0.99994862079620361,
+        -0.99999964237213135,
+        -0.99997627735137939,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0.043137256056070328,
+        0.043137256056070328,
+        0.035294119268655777,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 218646,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 4829,
+      "max": [
+        4.8743143081665039,
+        3.9360861778259277,
+        7.3979744911193848
+      ],
+      "min": [
+        0.019466400146484375,
+        0.092919826507568359,
+        0.075270652770996094
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1630716,
+      "componentType": 5126,
+      "count": 4829,
+      "max": [
+        0.99937254190444946,
+        0.99961137771606445,
+        0.99971437454223633
+      ],
+      "min": [
+        -0.99974542856216431,
+        -0.9995914101600647,
+        -0.99968618154525757
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2097024,
+      "componentType": 5126,
+      "count": 4829,
+      "max": [
+        0.99920964241027832,
+        0.99996227025985718,
+        0.99925202131271362,
+        1
+      ],
+      "min": [
+        -0.9981500506401062,
+        -0.9998897910118103,
+        -0.99985706806182861,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2174288,
+      "componentType": 5126,
+      "count": 4829,
+      "max": [
+        0.99215686321258545,
+        0.99215686321258545,
+        0.99215686321258545,
+        1
+      ],
+      "min": [
+        0.043137256056070328,
+        0.043137256056070328,
+        0.035294119268655777,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 874584,
+      "componentType": 5125,
+      "count": 6096,
+      "max": [
+        4828
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Zoey (https://sketchfab.com/p15227635)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/0d84d12c400c4b4db2f7a459ddb9488c",
+      "title": "Do you like Jazz?"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 898968,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1688664,
+      "byteOffset": 898968,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2251552,
+      "byteOffset": 2587632,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4839184,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "defaultMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 8,
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.73259294033050537,
+        -0.62015223503112793,
+        -0.28056877851486206,
+        0,
+        0.67997211217880249,
+        0.68540167808532715,
+        0.26050424575805664,
+        0,
+        0.03075004555284977,
+        -0.38162249326705933,
+        0.92380660772323608,
+        0,
+        -0.36536204814910889,
+        -0.63401693105697632,
+        -0.3322683572769165,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -2.6618330478668213,
+        -1.4476053714752197,
+        -5.549201488494873,
+        1
+      ],
+      "name": "beeshit.OBJ.cleaner.materialmerger.gles"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
